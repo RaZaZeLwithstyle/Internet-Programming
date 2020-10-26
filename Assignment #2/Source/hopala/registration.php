@@ -3,6 +3,7 @@
 <html>
 <head>
       <title>Registration</title>
+      <link rel="stylesheet" href="style.css">
 </head>
 <body>
       <div class="container">
@@ -10,6 +11,8 @@
               <h2>Register</h2>
           </div>
           <form action="registration.php" method="post">
+
+            <?php include('errors.php') ?>
 
               <div>
                   <label for="username">Username :</label>

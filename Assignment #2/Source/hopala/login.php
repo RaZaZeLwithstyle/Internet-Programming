@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-      <title>Registration</title>
+      <title>Login</title>
+      <link rel="stylesheet" href="style.css">
 </head>
 <body>
       <div class="container">
@@ -10,6 +11,8 @@
               <h2>Log In</h2>
           </div>
           <form action="login.php" method="post">
+
+              <?php include('errors.php') ?>
 
               <div>
                   <label for="username">Username :</label>
