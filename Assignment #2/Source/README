@@ -1,8 +1,8 @@
 Clone repository to your local machine
 Copy user-registration folder from source folder into C:\xampp\htdocs\ folder
 Open XAMPP and start apache and MySQL server
-In phpMyAdmin, create database called "user_registration" and table called "users" with 5 columns:
-id - integer, length 11, primary key, auto icrement
+In phpMyAdmin, create database called "assignment2" and table called "users" with 5 columns:
+id - integer, length 11, primary key, auto increment
 name - varchar, length 255
 email - varchar, length 255, unique
 password - varchar, length 255
